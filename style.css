@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+
+.nav-container{
+    width: 100%;
+    height: 15vh;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-left:5%;
+    text-transform: uppercase;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 70%;
+    border-radius: 20%;
+}
+.navlinks{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.navlinks li{
+    list-style-type: none;
+  
+
+}
+.navlinks li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    
+}
+.navlinks li a:hover{
+    background-color:skyblue;
+    color:white;
+   
+    
+}
+.contact{
+
+}  
+   
+.contact li{
+   
+    list-style-type: none;
+}
+    
+.contact li a {
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    background-color: skyblue;
+    color: white;
+    height: 20px;
+    width:300px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    border-radius: 10px;
+    
+}
+.contact li a:hover{
+    background-color:grey;
+    color: white;
+}
+h1{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    color:white;
+    text-transform:uppercase;
+}
